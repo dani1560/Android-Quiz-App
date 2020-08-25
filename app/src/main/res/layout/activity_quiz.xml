@@ -1,0 +1,240 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.widget.RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Quiz">
+
+
+
+  <TextView
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+android:id="@+id/q1"
+      android:layout_marginTop="20sp"
+      android:textSize="18sp"
+      android:textColor="#000"
+      android:text="Q1) In Java Methods such as reverse, shuffle are offered in:"
+      />
+
+
+    <RadioGroup
+        android:id="@+id/rg1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+android:orientation="horizontal"
+        android:layout_below="@id/q1"
+        >
+
+        <RadioButton
+            android:id="@+id/rb1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+android:text="Object"
+
+            />
+        <RadioButton
+            android:id="@+id/rb2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Collections"
+
+            />
+        <RadioButton
+            android:id="@+id/rb3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Apache Commons Collections"
+
+            />
+
+    </RadioGroup>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/q2"
+        android:textColor="#000"
+        android:textSize="18sp"
+        android:layout_below="@id/rg1"
+        android:layout_marginTop="20sp"
+        android:text="Q2) Which of those doesn't have an index based structure?"
+        />
+
+
+    <RadioGroup
+        android:id="@+id/rg2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_below="@id/q2"
+        >
+
+        <RadioButton
+            android:id="@+id/rb4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="List"
+
+            />
+        <RadioButton
+            android:id="@+id/rb5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Set"
+
+            />
+        <RadioButton
+            android:id="@+id/rb6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Map"
+
+            />
+
+    </RadioGroup>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/q3"
+        android:textColor="#000"
+        android:layout_below="@id/rg2"
+        android:textSize="18sp"
+        android:layout_marginTop="20sp"
+        android:text="Q3) Which of the following is the default value of an instance variable?"
+        />
+
+
+    <RadioGroup
+        android:id="@+id/rg3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_below="@id/q3"
+        >
+
+        <RadioButton
+            android:id="@+id/rb7"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="0"
+
+            />
+        <RadioButton
+            android:id="@+id/rb8"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="null"
+
+            />
+        <RadioButton
+            android:id="@+id/rb9"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Depends upon the type of variable"
+
+            />
+
+    </RadioGroup>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/q4"
+        android:layout_below="@id/rg3"
+        android:textSize="18sp"
+        android:textColor="#000"
+        android:layout_marginTop="20sp"
+        android:text="Q4) Method Overloading is an example of ?"
+        />
+
+
+    <RadioGroup
+        android:id="@+id/rg4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_below="@id/q4"
+        >
+
+        <RadioButton
+            android:id="@+id/rb10"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Static Binding"
+
+            />
+        <RadioButton
+            android:id="@+id/rb11"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Both of above"
+
+            />
+        <RadioButton
+            android:id="@+id/rb12"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Dynamic Binding"
+
+            />
+
+    </RadioGroup>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/q5"
+        android:layout_below="@id/rg4"
+        android:textSize="18sp"
+        android:textColor="#000"
+        android:layout_marginTop="20sp"
+        android:text="Q5) What is the size of short variable?"
+        />
+
+
+    <RadioGroup
+        android:id="@+id/rg5"
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_below="@id/q5"
+        >
+
+        <RadioButton
+            android:id="@+id/rb13"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="8bit"
+
+            />
+        <RadioButton
+            android:id="@+id/rb14"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="16bit"
+
+            />
+        <RadioButton
+            android:id="@+id/rb15"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="32bit"
+
+            />
+
+    </RadioGroup>
+
+    <Button
+        android:id="@+id/btn"
+        android:layout_below="@+id/rg5"
+        android:layout_width="300sp"
+        android:layout_height="50sp"
+        android:text="SUBMIT"
+        android:layout_centerHorizontal="true"
+android:layout_marginTop="30sp"
+        android:background="#EC1D1D"
+        android:textColor="#ffff"
+        android:textSize="18sp"
+        />
+</android.widget.RelativeLayout>
